@@ -1,0 +1,19 @@
+/* Reset margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fix the canvas to the top-left corner */
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none; /* Remove focus outline on canvas */
+}
+
+/* Prevent scrolling on the page */
+html, body {
+    overflow: hidden;
+    height: 100%; /* Ensure canvas covers full height */
+}
